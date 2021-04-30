@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+<h3>Contact Details</h3>
+<h4>Phone Number:</h4>
+<p>+91-882345651</p>
+
+<h4>Email:</h4>
+<p>pandeyashu514@gmail.com</p>
+<br>
+<form action="mailto:pandeyashu514@gmail.com">
+    <h1 class="heading_main" > Contact Form</h1>  <!-- for heading , class is given to give a particular style to main heading-->
+    <p>Please fill all the texts in the fields (* fields are mandatory)</p>
+    
+    <!-- to get name from the user-->
+    <p>First Name:* <input type="text" id="first_name" name="first_name" required placeholder="     john viz"> </p>
+    <p>Second Name: <input type="text" id="second_name" name="second_name" required placeholder="    john viz"> </p>
+
+    <p> Date of Birth:* <input placeholder="01/01/2001" type="date" name="dob" id="dob" required></p>
+
+    <!-- to get email from the user-->
+    <p>Email:* <input type="email" id="email" name="email" enctype="post/plaintext" placeholder="xyz@abc.com" required> </p>
+    
+    <!-- to get mobile number from user-->
+    <p>MobileNumber: <input name="mobileNumber" type="text" class="form-control" placeholder="Mobile Number" data-phone-number-input="" maxlength="10" size="10"> </p>
+    
+    <!--any message from the user-->
+    <p> Message:*</p>
+    <textarea name="message" id="message" cols="130" rows="10" placeholder="Your message to us" required></textarea> 
+
+    <!--submit button-->
+    <input type="submit" value="Submit">
+</form>
+
+
+<a href="index.html">Home</a>
+</body>
+</html>

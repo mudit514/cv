@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="contact.css">
+
+</head>
+<body>
+<div class="containers">
+   <div class="container1">
+    <form action="mailto:pandeyashu514@gmail.com">
+        <h1 class="heading_main" > Contact Form</h1>  <!-- for heading , class is given to give a particular style to main heading-->
+        <p>Please fill all the texts in the fields (* fields are mandatory)</p>
+        
+        <!-- to get name from the user-->
+        <p>First Name:* <input type="text" id="first_name" name="first_name" required placeholder="     john viz"> </p>
+        <p>Second Name: <input type="text" id="second_name" name="second_name" required placeholder="    john viz"> </p>
+
+        <p> Date of Birth:* <input placeholder="01/01/2001" type="date" name="dob" id="dob" required></p>
+
+        <!-- to get email from the user-->
+        <p>Email:* <input type="email" id="email" name="email" placeholder="xyz@abc.com" required> </p>
+        
+        <!-- to get mobile number from user-->
+        <p>MobileNumber: <input name="mobileNumber" type="text" class="form-control" placeholder="Mobile Number" data-phone-number-input="" maxlength="10" size="10"> </p>
+        
+        <!--any message from the user-->
+        <p> Message:*</p>
+        <textarea name="message" id="message" cols="130" rows="10" placeholder="Your message to us" required></textarea> 
+
+        <!--submit button-->
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<div class="container2">
+    <h2>About Us</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab corrupti veniam animi, ipsum ipsa a! Esse aperiam est dolore doloribus molestias voluptatibus nisi explicabo natus sit dolor! Consequuntur aut, officia atque non tempore architecto at corporis, sunt similique dicta accusamus porro! Quia consectetur ex asperiores id nesciunt quod repellendus suscipit perferendis voluptatum, iste minima ab quos neque nulla dolores similique nemo illum dignissimos tempora obcaecati! Sunt officia fugiat ducimus eum at sit beatae. Maxime omnis assumenda error inventore, expedita ipsum natus voluptates, non repellat officia veritatis magnam cupiditate quis alias beatae nihil corrupti quasi a odit, ducimus aliquid porro esse!</p>
+
+    <a href=""><h3>Learn More</h3></a>
+</div>
+
+</div>
+</body>
+</html>
